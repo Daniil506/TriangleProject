@@ -64,6 +64,25 @@ vcpkg_installed/
 # debug information files
 *.dwo
 
+# Папки сборки
+/build/
+/bin/
+/x64/
+/.vs/
+/.vscode/
+
+# Файлы компиляции
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+
+# Временные файлы
+*.tmp
+*.log
+.DS_Store
+
 # test output & cache
 Testing/
 .cache/
